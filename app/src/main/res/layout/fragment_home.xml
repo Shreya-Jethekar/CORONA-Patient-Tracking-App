@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_home1"
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.03" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:layout_width="331dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="RECORDS"
+                    android:textColor="@color/black"
+                    android:textSize="35sp"
+                    android:textStyle="normal|bold|italic" />
+
+                <ImageButton
+                    android:layout_width="55dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/search" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="244dp"
+                android:layout_height="7dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="160dp"
+                android:layout_weight="1"
+                android:background="#EF6868"
+                android:backgroundTint="@android:color/holo_red_light" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/textView_p"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_weight="1"
+                android:text="WORLD"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="34sp" />
+
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="74dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_wa"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Active :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_world_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="297dp"
+                android:layout_height="73dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_wr"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Recover :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_world_recover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_wd"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Deaths :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_world_deaths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:text="INDIA"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="34sp" />
+
+            <LinearLayout
+                android:layout_width="297dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_ia"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Active :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_india_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="297dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_ir"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Recover :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_india_recover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_id"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Deaths :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_india_death"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_id1"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="today Cases:-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_india_today_cases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_id2"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="today Deaths :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_india_today_death"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_id4"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="total cases :-"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/editText_india_total_cases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/gradient"
+                android:text="REFRESH"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/country_Tracking"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/gradient"
+                android:text="Country Tracking"
+                android:textSize="22sp" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
